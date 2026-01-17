@@ -356,6 +356,25 @@ body[data-layout="portrait"] .portrait-layout {
   }
 }
 
+@media screen and (max-width: 1080px) {
+  .ticker-jackpot {
+    font-size: 17vh !important;
+  }
+  .ticker-date,
+  .ticker-next-draw {
+    font-size: 8vh !important;
+    font-weight: 900 !important;
+  }
+  .ticker-ball {
+    width: 25vh !important;
+    height: 25vh !important;
+  }
+  .ticker-special-ball {
+    width: 27vh !important;
+    height: 27vh !important;
+  }
+}
+
 @media screen and (max-height: 350px) {
   .ticker-layout {
     padding: 0 0.5vw !important;
