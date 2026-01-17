@@ -81,7 +81,7 @@ const GameSlide = ({ game, layout }) => {
       >
         {gameLogo ? (
           <div
-            className="flex-shrink-0 ticker-logo"
+            className="ticker-logo"
             style={{
               width: 'auto',
             }}
@@ -99,12 +99,12 @@ const GameSlide = ({ game, layout }) => {
             />
           </div>
         ) : (
-          <h1 className="font-bold text-white flex-shrink-0 ticker-title">{game.game}</h1>
+          <h1 className="font-bold text-white ticker-title">{game.game}</h1>
         )}
 
-        <div className="flex-shrink-0 bg-white/30 ticker-divider"></div>
+        <div className="bg-white/30 ticker-divider"></div>
 
-        <div className="flex flex-row items-center flex-shrink-0 flex-nowrap ticker-numbers">
+        <div className="flex flex-row items-center  flex-nowrap ticker-numbers">
           {regularNumbers.map((num, idx) => (
             <div key={idx} className={`relative flex-shrink-0 ball-bounce ball-bounce-${idx + 1}`}>
               <div className="rounded-full flex items-center justify-center font-bold bg-white text-black relative z-10 ticker-ball">
@@ -114,6 +114,7 @@ const GameSlide = ({ game, layout }) => {
           ))}
 
           {specialNumber && (
+            
             <>
               <span className="text-white font-bold flex-shrink-0 ticker-plus">+</span>
 
@@ -150,9 +151,9 @@ const GameSlide = ({ game, layout }) => {
           )}
         </div>
 
-        <div className="flex-shrink-0 bg-white/30 ticker-divider"></div>
+        <div className="bg-white/30 ticker-divider"></div>
 
-        <div className="flex flex-col justify-center flex-shrink-0 ticker-info">
+        <div className="flex flex-col justify-center ticker-info">
           <p
             className="text-white/90 whitespace-nowrap overflow-hidden text-ellipsis ticker-date"
             style={{ fontWeight: '600' }}

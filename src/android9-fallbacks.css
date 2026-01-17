@@ -105,7 +105,7 @@ body[data-layout="portrait"] .portrait-layout {
 .ticker-divider {
   width: 0.25vw;
   height: 80vh;
-  margin: 0 4vw;
+  margin: 0 2vw;
 }
 
 .ticker-numbers {
@@ -126,8 +126,8 @@ body[data-layout="portrait"] .portrait-layout {
 }
 
 .ticker-ball {
-  width: 22vh !important;
-  height: 22vh !important;
+  width: 30vh !important;
+  height: 30vh !important;
   font-size: 10vh !important;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.3) !important;
   transform: translateZ(0) !important;
@@ -137,8 +137,8 @@ body[data-layout="portrait"] .portrait-layout {
 }
 
 .ticker-special-ball {
-  width: 24vh !important;
-  height: 24vh !important;
+  width: 32vh !important;
+  height: 32vh !important;
   font-size: 11vh !important;
   transform: translateZ(0) !important;
   -webkit-transform: translateZ(0) !important;
@@ -164,12 +164,12 @@ body[data-layout="portrait"] .portrait-layout {
 
 .ticker-date,
 .ticker-next-draw {
-  font-size: 20vh !important;
+  font-size: 10vh !important;
   font-weight: 900 !important;
 }
 
 .ticker-jackpot {
-  font-size: 45vh !important;
+  font-size: 20vh !important;
 }
 
 .landscape-layout {
