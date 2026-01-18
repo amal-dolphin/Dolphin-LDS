@@ -196,6 +196,7 @@ body[data-layout="portrait"] .portrait-layout {
 .landscape-draw-date {
   font-size: 4.5vh;
   margin-bottom: 2vh;
+  font-weight: 800;
 }
 
 .landscape-balls-container {
@@ -248,7 +249,6 @@ body[data-layout="portrait"] .portrait-layout {
 
 .landscape-next-draw {
   font-size: 4.5vh;
-  margin-bottom: 1vh;
 }
 
 .landscape-jackpot {
@@ -278,12 +278,11 @@ body[data-layout="portrait"] .portrait-layout {
 
 .portrait-draw-date {
   font-size: 3vh;
-  margin-bottom: 1vh;
+  font-weight: 800;
 }
 
 .portrait-balls-container {
   gap: 1vw !important;
-  margin-bottom: 1.5vh;
 }
 
 .portrait-balls-container > div {
@@ -331,11 +330,11 @@ body[data-layout="portrait"] .portrait-layout {
 
 .portrait-next-draw {
   font-size: 3vh;
-  margin-bottom: 0.5vh;
+  font-weight: 800;
 }
 
 .portrait-jackpot {
-  font-size: 12vh !important;
+  font-size: 8vh !important;
 }
 
 @media screen and (max-width: 1400px) {

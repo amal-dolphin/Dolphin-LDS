@@ -230,7 +230,7 @@ const GameSlide = ({ game, layout }) => {
         <h1 className={`font-bold text-white flex-shrink-0 ${layout}-title`}>{game.game}</h1>
       )}
 
-      <p className={`text-white/80 flex-shrink-0 ${layout}-draw-date`}>
+      <p className={`text-white/80 flex-shrink-0 ${layout}-draw-date py-6`}>
         Draw: {dayjs(game.date).format('MMM DD, YYYY')}
       </p>
 
@@ -297,7 +297,7 @@ const GameSlide = ({ game, layout }) => {
           className={`text-center relative flex-shrink-0 ${layout}-jackpot-container`}
           style={{ maxWidth: '95vw' }}
         >
-          <p className={`text-white/80 ${layout}-next-draw`}>
+          <p className={`text-white/80 ${layout}-next-draw py-6`}>
             Next Draw: {dayjs(game.nextDrawDate).format('MMM DD, YYYY')}
           </p>
 
