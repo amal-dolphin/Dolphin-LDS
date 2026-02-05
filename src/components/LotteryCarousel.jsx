@@ -162,9 +162,9 @@ const LotteryCarousel = ({ layout, lotteryList, carouselGap }) => {
 
   if (error && games.length === 0) {
     return (
-      <div className="flex flex-col items-center justify-center h-screen w-screen bg-gradient-to-br from-red-900 via-red-800 to-red-900">
-        <p className="text-white text-3xl font-bold mb-4">⚠️ Error Loading Data</p>
-        <p className="text-white text-xl">{error}</p>
+      <div className="flex flex-col items-center align-center justify-center h-screen w-screen bg-[#36454F]">
+        <p className="text-white text-xl font-bold">⚠️   Failed to Load   ⚠️</p>
+        <p className="text-white text-xl font-bold">Check Your Connection</p>
       </div>
     );
   }
